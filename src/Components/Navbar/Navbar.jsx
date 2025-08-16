@@ -6,7 +6,7 @@ import { HiMiniShoppingBag } from 'react-icons/hi2';
 
 const Navbar = () => {
   return (
-    <header className="bg-white">
+    <header className="bg-white fixed top-0 left-0 right-0">
       <nav className="max-w-[1300px] p-12 mx-auto h-[14vh] flex items-center justify-between">
         {/* Logo */}
         <a href="#" className="flex w-15 h-15 bg-zinc-100 rounded-full p-2">
