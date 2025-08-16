@@ -31,11 +31,17 @@ const Navbar = () => {
 
           {/* Icons */}
 
-          <button className="text-[1.7rem] text-zinc-800">
+          <button className="text-[1.7rem] text-zinc-800 relative">
             <GoHeartFill />
+            <span className="flex  justify-center items-center  bg-red-600 text-white w-5 h-5 rounded-full text-[14px] absolute top-4 right-3 border-2 border-white">
+              1
+            </span>
           </button>
-          <button className="text-[1.7rem] text-zinc-800">
+          <button className="text-[1.7rem] text-zinc-800 relative">
             <HiMiniShoppingBag />
+            <span className="flex  justify-center items-center  bg-red-600 text-white w-5 h-5 rounded-full text-[14px] absolute top-4 right-3 border-2 border-white">
+              1
+            </span>
           </button>
         </div>
       </nav>
